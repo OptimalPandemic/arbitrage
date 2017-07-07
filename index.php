@@ -43,7 +43,7 @@ catch(PDOException $e)
     <style>
         /* Medium Devices, Desktops */
         @media only screen and (min-width : 992px) {
-            .container-fluid {width: 75%;}
+            .container-fluid {width: 45%;}
             .btn-lg {line-height: 2;}
         }
     </style>
