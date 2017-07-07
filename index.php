@@ -52,7 +52,7 @@ catch(PDOException $e)
         </div>
         <?php } ?>
         <br />
-        <h2 id="title"><?= $data['title'] ?></h2>
+        <h1 id="title"><?= $data['title'] ?></h1>
         <center>
         <hr />
         <img class="img-fluid" src="img/<?= $data['img_url'] ?>" style="min-width: 90%" />
