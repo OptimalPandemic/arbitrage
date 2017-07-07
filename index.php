@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$host = 'localhost';
+$host = '34.29.151.145'; // TODO fix this
 $db = 'arbitrage';
 $user = 'arbitrage';
 $pass = 'QCUNCjS3uSpZ9I0U';
@@ -45,7 +45,9 @@ catch(PDOException $e)
     <div class="container">
         <?php if(isset($data['next_uuid'])) { ?>
         <div class="row" id="header-button">
-            <button class="btn btn-primary">Next Page</button>
+            <div class="col-md-12">
+                <button class="btn btn-primary">Next Page</button>
+            </div>
         </div>
         <?php } ?>
         <h2 id="title"><?= $data['title'] ?></h2>
@@ -54,7 +56,9 @@ catch(PDOException $e)
         </div>
         <?php if(isset($data['next_uuid'])) { ?>
         <div class="row" id="footer-button">
-            <button class="btn btn-primary">Next Page</button>
+            <div class="col-md-12">
+                <button class="btn btn-primary">Next Page</button>
+            </div>
         </div>
         <?php } ?>
         <div class="row" id="ad-row-1">
