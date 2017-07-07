@@ -52,11 +52,11 @@ catch(PDOException $e)
         </div>
         <?php } ?>
         <br />
-        <center>
         <h2 id="title"><?= $data['title'] ?></h2>
+        <center>
         <hr />
-        <div class="row" id="image-frame">
-            <img class="thumbnail" src="img/<?= $data['img_url'] ?>"/>
+        <div class="row thumbnail" id="image-frame">
+            <img src="img/<?= $data['img_url'] ?>"/>
         </div>
         <hr />
         </center>
