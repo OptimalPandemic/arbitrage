@@ -55,7 +55,7 @@ catch(PDOException $e)
         <h2 id="title"><?= $data['title'] ?></h2>
         <center>
         <hr />
-        <img class="img-fluid" src="img/<?= $data['img_url'] ?>" />
+        <img class="img-fluid" src="img/<?= $data['img_url'] ?>" style="min-width: 90%" />
         <hr />
         </center>
         <?php if(isset($data['next_uuid'])) { ?>
