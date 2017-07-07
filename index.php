@@ -40,6 +40,12 @@ catch(PDOException $e)
     <!-- TODO Add Google Analytics -->
     <!-- TODO Add Facebook Pixel -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+        /* Medium Devices, Desktops */
+        @media only screen and (min-width : 992px) {
+            .container-fluid {width: 75%;}
+        }
+    </style>
 </head>
 <body>
     <div class="container-fluid">
