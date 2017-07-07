@@ -42,7 +42,7 @@ catch(PDOException $e)
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
 <body>
-    <div class="container-width">
+    <div class="container-fluid">
         <?php if(isset($data['next_uuid'])) { ?>
         <br />
         <div class="row" id="header-button">
