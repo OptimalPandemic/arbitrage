@@ -46,21 +46,23 @@ catch(PDOException $e)
         <?php if(isset($data['next_uuid'])) { ?>
         <br />
         <div class="row" id="header-button">
-            <div class="col-md-12">
+            <div class="span12">
                 <button class="btn btn-primary btn-block btn-lg">Next Page</button>
             </div>
         </div>
         <?php } ?>
         <br />
+        <center>
         <h2 id="title"><?= $data['title'] ?></h2>
         <hr />
         <div class="row" id="image-frame">
             <img class="thumbnail" src="img/<?= $data['img_url'] ?>"/>
         </div>
         <hr />
+        </center>
         <?php if(isset($data['next_uuid'])) { ?>
         <div class="row" id="footer-button">
-            <div class="col-md-12">
+            <div class="span12">
                 <button class="btn btn-primary btn-block btn-lg">Next Page</button>
             </div>
         </div>
