@@ -16,12 +16,14 @@ $opt = [
 ];
 $db = new PDO($dsn, $user, $pass, $opt);
 
-$stmt = $db->prepare('SELECT * FROM slides WHERE uuid=:id');
+$sql = "SELECT * FROM slides WHERE uuid=:id";
+
 try
 {
+    $stmt = $db->prepare($sql);
     $stmt->bindParam(":id", $_GET['id'], PDO::PARAM_STR);
     $stmt->execute();
-    $data = $stmt->fetchColumn();
+    $data = $stmt->fetch();
 }
 catch(PDOException $e)
 {
