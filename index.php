@@ -41,8 +41,8 @@ catch(PDOException $e)
     <!-- TODO Add Facebook Pixel -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
-<body style="background-color: #cccccc">
-    <div class="container" style="background-color: #ccc">
+<body>
+    <div class="container">
         <?php if(isset($data['next_uuid'])) { ?>
         <br />
         <div class="row" id="header-button">
