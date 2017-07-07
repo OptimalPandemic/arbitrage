@@ -50,7 +50,7 @@ catch(PDOException $e)
         <?php } ?>
         <h2 id="title"><?= $data['title'] ?></h2>
         <div class="row" id="image-frame">
-            <img src="<?= $data['img_url'] ?>"/>
+            <img src="img/<?= $data['img_url'] ?>"/>
         </div>
         <?php if(isset($data['next_uuid'])) { ?>
         <div class="row" id="footer-button">
