@@ -44,9 +44,10 @@ catch(PDOException $e)
 <body>
     <div class="container">
         <?php if(isset($data['next_uuid'])) { ?>
+        <br />
         <div class="row" id="header-button">
             <div class="col-md-12">
-                <button class="btn btn-primary">Next Page</button>
+                <button class="btn btn-primary btn-block">Next Page</button>
             </div>
         </div>
         <?php } ?>
@@ -57,7 +58,7 @@ catch(PDOException $e)
         <?php if(isset($data['next_uuid'])) { ?>
         <div class="row" id="footer-button">
             <div class="col-md-12">
-                <button class="btn btn-primary">Next Page</button>
+                <button class="btn btn-primary btn-block">Next Page</button>
             </div>
         </div>
         <?php } ?>
