@@ -56,7 +56,7 @@ catch(PDOException $e)
         <center>
         <hr />
         <div class="row thumbnail" id="image-frame">
-            <img src="img/<?= $data['img_url'] ?>" style="width: 95%; height: auto;"/>
+            <img class="img-fluid" src="img/<?= $data['img_url'] ?>" />
         </div>
         <hr />
         </center>
