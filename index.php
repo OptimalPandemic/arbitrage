@@ -56,7 +56,7 @@ catch(PDOException $e)
         <center>
         <hr />
         <div class="row thumbnail" id="image-frame">
-            <img src="img/<?= $data['img_url'] ?>" style="min-width: 90%; min-height: auto;"/>
+            <img src="img/<?= $data['img_url'] ?>" style="width: 95%; height: auto;"/>
         </div>
         <hr />
         </center>
