@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$host = '34.29.151.145'; // TODO fix this
+$host = 'localhost';
 $db = 'arbitrage';
 $user = 'arbitrage';
 $pass = 'QCUNCjS3uSpZ9I0U';
