@@ -41,7 +41,7 @@ catch(PDOException $e)
 <head>
     <meta charset="utf-8">
     <meta name="HandheldFriendly" content="true">
-    <title>CHANGEME</title>
+    <title>Just for Funsies</title>
     <!-- TODO Add Google Analytics -->
     <!-- TODO Add Facebook Pixel -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -52,6 +52,13 @@ catch(PDOException $e)
             .btn-lg {line-height: 2;}
         }
     </style>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-8203308374918230",
+            enable_page_level_ads: true
+        });
+    </script>
 </head>
 <body>
     <div class="container-fluid">
