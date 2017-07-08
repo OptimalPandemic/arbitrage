@@ -2,6 +2,11 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
+if(!isset($_GET['id']))
+{
+    $_GET['id'] = "67c8a9eb-62e2-11e7-b577-0a4e32e6fe4a";
+}
+
 $host = 'localhost';
 $db = 'arbitrage';
 $user = 'arbitrage';
